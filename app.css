@@ -111,7 +111,7 @@ h1 {
   text-align: center;
   padding: 0.625rem 0;
 }
-.project-card {
+.project-tile {
   position: relative;
   width: fit-content;
   height: fit-content;
