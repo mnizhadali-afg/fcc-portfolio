@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('./reset.css');
+/* ------ GLOBAL ------ */
+:root {
+  --clr-dark-red: #BE3144;
+  --clr-dark-blue: #45567D;
+  --clr-dark-grey: #303841;
+  --clr-off-white: #F0F0F0;
+  --clr-dark-orange: #ED4213:
+}
+
+
+#tagline {
+  width: 200px;
+}
+
+/* ------ PROJECTS ------ */
+.project-links::before {
+  content: "<";
+  visibility: hidden;
+}
+
+.project-links:hover::before {
+  content: "<";
+  visibility: visible;
+}
+
+.project-links::after {
+  content: "/>";
+  visibility: hidden;
+}
+
+.project-links:hover::after {
+  content: "/>";
+  visibility: visible;
+}
