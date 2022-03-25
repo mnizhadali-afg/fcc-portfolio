@@ -16,6 +16,11 @@ body {
   overflow-x: hidden;
 }
 
+em {
+  color: var(--clr-dark-orange);
+  text-shadow: -3px -1px 3px var(--clr-dark-grey);
+}
+
 /* ------ NAVBAR ------ */
 #navbar {
   align-items: center;
@@ -160,18 +165,6 @@ h1 {
 }
 .project-title:hover::after {
   visibility: visible;
-}
-#show-more {
-  color: var(--clr-off-white);
-  background-color: var(--clr-dark-grey);
-  font-size: 1rem;
-  font-weight: 500;
-  text-decoration: none;
-  margin-top: 3.5rem;
-  padding: 0.75rem 1.5rem;
-}
-#show-more:hover {
-  background-color: var(--clr-dark-red);
 }
 
 /* ------ PROJECTS ------ */
